@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+		<title>Les Pionniers de l'Informatique: Margaret Hamilton</title>
+		<link rel="icon" type="image/png" href="images/apollo_favicon.png"/>
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="text/javascript" src="scripts/main.js"></script>
+	</head>
+	<body>
+		<!-- Barre de navigation -->
+		<div id="menu">
+			<ul id="menu_list">
+			  <li><a href="index.html#front_page">Accueil</a></li>
+			  <li><a href="biography.html#front_page">Biographie</a></li>
+			  <li><a href="contributions.html#front_page">Contributions</a></li>
+				<li><a class="active"  href="#front_page">Programme Apollo</a></li>
+				<li><a href="index.html#sources">Sources</a></li>
+			<ul>
+		</div>
+		<div id="front_page">
+			<img src="images/apollo_landing.png" alt="Apollo Landing" style="width: 100%;">
+			<div id="main_title">
+				<h1>Margaret Hamilton: la femme derrière le premier<br> <span style="color: gold">alunissage</span></h1>
+			</div>
+		</div>
+		<div style="margin: 150px">
+			<p>
+				Margaret Hamilton a rejoint le laboratoire Charles Stark Draper au MIT en 1963 et a commencé à travailler sur le programme spatial Apollo.
+				Hamilton a d'abord été embauché comme programmeur, mais est vite passé à la conception des systèmes.
+				Finalement, elle a été choisie <strong>pour diriger le développement de tous les logiciels du module de commande, qui étaient comprennent les logiciels de navigation, de guidage, et d'atterrissage lunaire.</strong>
+				Son équipe a été crédité du développement du logiciel pour <strong>Apollo et Skylab.</strong>
+			</p>
+			<h2>Apollo 8</h2>
+			<p>
+				Hamilton amenait souvent sa fille, Lauren, au travail pendant les heures creuses.
+				Une fois, alors que certains membres de l'équipe exécutaient des scénarios de mission sur l'ordinateur de simulation hybride, Lauren est allée explorer et a commencé à appuyer sur les touches du DSKY au hasard.
+				<strong>Elle a lancé un scénario de mission et a provoqué l'échec de la mission en sélectionnant P01 (le programme d'attérissage) au plein milieu du vol. Hamilton a commencé à s'inquiéter que le programme P01 pouurait être sélectionné par inadvertance par un vrai astronaute au cours d'une vraie mission.
+				Ce genre d'accident serait catastrophique car il effacerait les données de navigation.</strong>
+				Cependant, la direction de la NASA a refusé qu'elle ajoute du code pour éviter ce problème car elle considérait que ses astronautes ne commeteraient jamais une telle erreur.
+				Hamilton se voit alors contraint d'ajouté un court commentaire au logiciel: "ne sélectionnez pas P01 pendant le vol".
+				<br>
+				<br>
+				Ironiquement, au cours de la mission suivante, <strong>Apollo 8, Jim Lovell (aussi pilote de la mission <a href="https://fr.wikipedia.org/wiki/Apollo_13"><span>Apollo 13</span></a>) a fait la même erreur.</strong>
+				Heureusement, Hamilton et son équipe ont pu aider les astronautes à entrer de nouveau les données de navigation dans l'AGC.
+				Après la fin de la mission et le retour sain et sauf de l'équipage, Margaret Hamilton s'est vue accordée l'autorisation de modifier le logiciel afin d'empêcher ce problème de se reproduire lors de futures missions.
+			</p>
+			<br>
+			<h2>Apollo 11</h2>
+			<p>
+				La qualité des programmes développés sous la supervision d'Hamilton et du système d'exploitation de J. Halcombe Laning installés sur l'ordinateur Apollo Guidance Computer (AGC) ont joué un rôle crucial au cours de la mission Apollo 11 en évitant une interruption de l'atterrissage du module lunaire Apollo sur la Lune.
+				<br>
+				<br>
+				<strong>Trois minutes avant que le module lunaire Apollo atteigne la surface de la Lune, des alarmes informatiques répétées se déclenchent. Elles signalent que l'ordinateur AGC est saturé et que l'ordinateur de navigation ainsi que l’ordinateur de pilotage transmettent des ordres contradictoires.</strong>
+				<br>
+				<br>
+				<strong>Grâce à l'architecture du système d'exploitation attribuant des priorités aux programmes, l'ordinateur réussit néanmoins à mener sa mission principale consistant à poser le module lunaire sur la Lune.</strong>
+				Le logiciel était conçu en utilisant des exécutions asynchrones de telle manière que les tâches ayant la plus haute priorité (essentielles à l'atterrissage) puissent interrompre des tâches moins prioritaires.
+				L'analyse de l'incident effectuée après la mission l'avait attribué à une erreur de l'équipage qui aurait laissé le radar fonctionner dans cette phase de vol saturant les capacités de calcul limitées de l'AGC.
+			</p>
+			<br>
+			<h2>Bonus &#127881</h2>
+			<p>Une archive complète des programmes du module lunaire LM et du module de commande CM de l'ordinateur de guidage Apollo AGC a été crée à partir de la documentation de la NASA</p>
+			<p>Vous pouvez la retrouver <a href="https://github.com/chrislgarry/Apollo-11"><span>dans ce répositoire GitHub</span></a>.</p>
+			<a href="https://github.com/chrislgarry/Apollo-11">
+				<img src="images/Apollo-GitHub.png" style="width: 100%;">
+				<figcaption class="underline_elem"><span class="box">Code source original de l'ordinateur de guidage Apollo 11 (AGC) pour le module de commande (Comanche055) et le module lunaire (Luminary099).</span></figcaption>
+			</a>
+		</div>
+		<div id="sources" class="box" style="margin: 50px">
+			<h2>Sources</h2>
+			<h3>Informations</h3>
+			<ul>
+				<a href="https://fr.wikipedia.org/wiki/Margaret_Hamilton_(scientifique)">
+					<li>“Margaret Hamilton (Scientifique).” <i>Wikipedia</i>, Wikimedia Foundation, 16 Oct. 2020, fr.wikipedia.org/wiki/Margaret_Hamilton_(scientifique).</li>
+				</a>
+				<a href="https://www.femmes-esr.com/portfolio/margaret-hamilton-1936-informaticienne/">
+					<li>“Margaret Hamilton (1936-) – Informaticienne.” <i>Les Femmes De LEnseignement Suprieur Et De La Recherche</i>, www.femmes-esr.com/portfolio/margaret-hamilton-1936-informaticienne/. </li>
+				</a>
+				<a href="https://www.brainyquote.com/quotes/margaret_h_hamilton_860405">
+					<li>“Margaret H. Hamilton Quotes.” <i>BrainyQuote</i>, Xplore, www.brainyquote.com/quotes/margaret_h_hamilton_860405.</li>
+				</a>
+				<a href="https://www.wehackthemoon.com/bios/margaret-hamilton">
+					<li>“Margaret Hamilton.” <i>Hack the Moon</i>, wehackthemoon.com/bios/margaret-hamilton.</li>
+				</a>
+				<a href="https://www.franceculture.fr/sciences/margaret-hamilton-la-femme-qui-a-fait-atterrir-lhomme-sur-la-lune">
+					<li>Nasa, et al. “Margaret Hamilton, La Femme Qui a Fait Atterrir L'Homme Sur La Lune.” <i>France Culture</i>, 1 Aug. 2018, www.franceculture.fr/sciences/margaret-hamilton-la-femme-qui-a-fait-atterrir-lhomme-sur-la-lune.</li>
+				</a>
+				<a href="https://www.fr.wikipedia.org/wiki/Semi-Automatic_Ground_Environment">
+					<li>“Semi-Automatic Ground Environment.” <i>Wikipedia</i>, Wikimedia Foundation, 7 Jan. 2020, fr.wikipedia.org/wiki/Semi-Automatic_Ground_Environment.</li>
+				</a>
+			</ul>
+			<h3>Photos</h3>
+			<ul>
+				<a href="https://blog.google/products/maps/margaret-hamilton-apollo-11-tribute/">
+					<li>Fitzpatrick, Jen. “A Moonlit Tribute to a Moon Landing Icon.” <i>Google</i>, Google, 18 July 2019, blog.google/products/maps/margaret-hamilton-apollo-11-tribute/.</li>
+				</a>
+				<a href="https://fr.wikipedia.org/wiki/Margaret_Hamilton_(scientifique)">
+					<li>“Margaret Hamilton (Scientifique).” <i>Wikipedia</i>, Wikimedia Foundation, 16 Oct. 2020, fr.wikipedia.org/wiki/Margaret_Hamilton_(scientifique).</li>
+				</a>
+				<a href="https://www.nasa.gov/audience/forstudents/5-8/features/symbols-of-nasa.html">
+					<li>Dunbar, Brian. “Symbols of NASA.” <i>NASA</i>, NASA, 27 July 2018, www.nasa.gov/audience/forstudents/5-8/features/symbols-of-nasa.html.</li>
+				</a>
+				<a href="https://www.nasa.gov/mission_pages/apollo/images.html">
+					<li>Loff, Sarah. “Apollo Image Gallery.” <i>NASA</i>, NASA, 8 Apr. 2019, www.nasa.gov/mission_pages/apollo/images.html.</li>
+				</a>
+				<a href="https://solarsystem.nasa.gov/resources/2293/apollo-mission-patches/">
+					<li>“Apollo Mission Patches.” <i>NASA</i>, NASA, solarsystem.nasa.gov/resources/2293/apollo-mission-patches/.</li>
+				</a>
+				<a href="https://www.wehackthemoon.com/bios/margaret-hamilton">
+					<li>“Margaret Hamilton.” <i>Hack the Moon</i>, wehackthemoon.com/bios/margaret-hamilton.</li>
+				</a>
+				<a href="https://www.i-programmer.info/history/people/10030-margaret-hamilton-apollo-and-beyond.html?start=2">
+					<li>Editor. “Margaret Hamilton - Apollo and Beyond.” <i>i-programmer</i>, www.i-programmer.info/history/people/10030-margaret-hamilton-apollo-and-beyond.html?start=2.</li>
+				</a>
+				<a href="https://www.fr.wikipedia.org/wiki/Semi-Automatic_Ground_Environment">
+					<li>“Semi-Automatic Ground Environment.” <i>Wikipedia</i>, Wikimedia Foundation, 7 Jan. 2020, fr.wikipedia.org/wiki/Semi-Automatic_Ground_Environment.</li>
+				</a>
+			</ul>
+		</div>
+	</body>
+</html>
